@@ -6,14 +6,12 @@ import random
 import numpy as np
 from collections import deque
 
-import json
 from keras import initializers
 from keras.initializers import normal, identity
 from keras.models import Sequential
 from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.layers.convolutional import Convolution2D, MaxPooling2D, Conv2D
 from keras.optimizers import Adam
-import tensorflow as tf
 
 import gym
 import cv2
